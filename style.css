@@ -1,0 +1,85 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+#wrapper{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 57vw;
+}
+
+nav{
+  position: absolute;
+  top: 2vw;
+  left: 5vw;
+  z-index:3;
+}
+
+nav li{
+  list-style: none;
+  float: left;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-family: Arial;
+  border-right: 1px solid black;
+  font-size: 11px;
+}
+
+nav li:last-child{
+  border-right: none;
+}
+
+#two_players{
+  text-decoration: underline;
+}
+
+.score_board_pic{
+  width: 3vw;
+  height: 3vw;
+}
+
+#score_board{
+  position: absolute;
+  left: 12vw;
+}
+
+#score_board li{
+  border: none;
+}
+
+#reset_score_board{
+  position: relative;
+  top: 1vw;
+  color: red;
+}
+
+#square_wrapper{
+  position: absolute;
+  top:2vw;
+  padding-left: 39vw;
+}
+
+.square{
+  width: 17vw;
+  height: 17vw;
+  float: left;
+}
+
+.square4, .square7{
+  clear: left;
+}
+
+#winner_wrapper{
+  position: relative;
+  left: 10vw;
+  top: 40vw;
+  width: 20vw;
+  height: 20vw;
+}

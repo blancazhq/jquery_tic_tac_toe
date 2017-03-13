@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav>
+        <ul>
+          <li id="new_game">new game</li>
+          <li id="two_players">2 players mode</li>
+          <li id="vs_computer">play with computer</li>
+          <li id="score_board_button">score board</li>
+        </ul>
+        <ul id="score_board">
+          <li><img src="images/circle.png" class="score_board_pic"><span id="player1_score">0</span></li>
+          <li><img src="images/cross.png" class="score_board_pic"><span id="player2_score">0</span></li>
+          <li><span id="reset_score_board">reset</span></li>
+        </ul>
+      </nav>
+      <div id= "square_wrapper" class="cf">
+        <div class="square square1">
+        </div>
+        <div class="square square2">
+        </div>
+        <div class="square square3">
+        </div>
+        <div class="square square4">
+        </div>
+        <div class="square square5">
+        </div>
+        <div class="square square6">
+        </div>
+        <div class="square square7">
+        </div>
+        <div class="square square8">
+        </div>
+        <div class="square square9">
+        </div>
+      </div>
+      <div id="winner_wrapper">
+      </div>
+    </div>
+  </body>
+</html>
